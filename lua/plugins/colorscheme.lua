@@ -8,6 +8,12 @@ return {
     opts = {},
   },
   {
+    "rose-pine/neovim",
+    lazy = false,
+    priority = 1000,
+    opts = {},
+  },
+  {
     "LazyVim/LazyVim",
     opts = {
       colorscheme = "tokyonight-moon",
