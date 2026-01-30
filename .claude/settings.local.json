@@ -1,7 +1,12 @@
 {
   "permissions": {
     "allow": [
-      "Bash(dir /s C:UsersTUAppDataLocalnvim)"
+      "Bash(dir /s C:UsersTUAppDataLocalnvim)",
+      "Bash(dir:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebSearch",
+      "Bash(git add:*)"
     ]
   }
 }
